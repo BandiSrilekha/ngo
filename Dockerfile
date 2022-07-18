@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-LABEL maintainer="shalinirao580@gmail.com"
+LABEL maintainer="srilekhareddybandi@gmail.com"
 VOLUME /main-app
 ADD target/*.jar app.jar
 EXPOSE 8080
